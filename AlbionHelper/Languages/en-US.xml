@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<translations>
+  <translation name="LANGUAGE">Language</translation>
+  <translation name="REFRESH_RATE">Refresh rate</translation>
+  <translation name="UPDATE_ITEM_LIST_BY_DAYS">Update item list by days: </translation>
+  <translation name="SETTINGS">Settings</translation>
+  <translation name="SAVE">Save</translation>
+  <translation name="CITY">City</translation>
+  <translation name="SELL_PRICE_MIN">Sell price MIN</translation>
+  <translation name="SELL_PRICE_MIN_DATE">Sell price MIN Dt</translation>
+  <translation name="SELL_PRICE_MAX">Sell price MAX</translation>
+  <translation name="SELL_PRICE_MAX_DATE">Sell price MAX Dt</translation>
+  <translation name="BUY_PRICE_MIN">Buy price MIN</translation>
+  <translation name="BUY_PRICE_MIN_DATE">Buy price MIN Dt</translation>
+  <translation name="BUY_PRICE_MAX">Buy price MAX</translation>
+  <translation name="BUY_PRICE_MAX_DATE">Buy price MAX Dt</translation>
+  <translation name="LAST_UPDATE">Last update</translation>
+  <translation name="SHOW_VILLAGES">Show villages</translation>
+  <translation name="AUTO_UPDATE_DATA">Auto update data</translation>
+  <translation name="DIFFERENT_CALCULATION">Different calculation</translation>
+  <translation name="ERROR_PRICES_CAN_NOT_BE_LOADED">ERROR: Price can not be loaded</translation>
+  <translation name="ERROR_NO_ITEM_INFO">ERROR: No item information</translation>
+  <translation name="ERROR_GENERAL_ERROR">ERROR: General error.</translation>
+  <translation name="BOUGHT_FOR">Bought for</translation>
+  <translation name="SELL_FOR">Sell for</translation>
+  <translation name="UNKNOWN_ITEM_NAME">Unknown item name</translation>
+  <translation name="NORMAL">Normal</translation>
+  <translation name="GOOD">Good</translation>
+  <translation name="OUTSTANDING">Outstanding</translation>
+  <translation name="EXCELLENT">Excellent</translation>
+  <translation name="MASTERPIECE">Masterpiece</translation>
+  <translation name="MIN_PROFIT">Min Profit</translation>
+  <translation name="ALL">All</translation>
+  <translation name="ICON">Icon</translation>
+  <translation name="NAME">Name</translation>
+  <translation name="TIER">Tier</translation>
+  <translation name="LEVEL">Level</translation>
+  <translation name="QUALITY">Quality</translation>
+  <translation name="COSTS">Costs</translation>
+  <translation name="REVENUE">Revenue</translation>
+  <translation name="REVENUE_WITHOUT_FEE">Revenue without fee</translation>
+  <translation name="PROFIT">Profit</translation>
+  <translation name="PURCHASE_CITY">Purchase city</translation>
+  <translation name="DOUBLE_VALUE_EXISTS_IN_THE_LANGUAGE_FILE">Double value exists in the language file</translation>
+  <translation name="EVERY_DAY">Every day</translation>
+  <translation name="EVERY_3_DAYS">Every 3 days</translation>
+  <translation name="EVERY_7_DAYS">Every 7 days</translation>
+  <translation name="EVERY_14_DAYS">Every 14 days</translation>
+  <translation name="EVERY_28_DAYS">Every 28 days</translation>
+  <translation name="5_SECONDS">5 Seconds</translation>
+  <translation name="10_SECONDS">10 Seconds</translation>
+  <translation name="30_SECONDS">30 Seconds</translation>
+  <translation name="60_SECONDS">60 Seconds</translation>
+  <translation name="5_MINUTES">5 Minutes</translation>
+  <translation name="MIN_PROFIT_TOOLTIP">Specifies the minimum profit an item should generate.</translation>
+  <translation name="REMOVE">Remove</translation>
+  <translation name="ITEM_LIST_SOURCE_URL">Item list source url</translation>
+  <translation name="ITEM_LIST_CAN_NOT_BE_LOADED">Itemlist can not be loaded.</translation>
+  <translation name="ERROR">Error</translation>
+  <translation name="NOTE">Note</translation>
+  <translation name="DEFAULT_ITEMLIST_HAS_BEEN_LOADED">Default ItemList has been loaded.</translation>
+  <translation name="SHOW_BLACKZONE_OUTPOSTS">Show black zone outposts</translation>
+  <translation name="ID">Id</translation>
+  <translation name="AVERAGE_ITEM_POWER">Average item power</translation>
+  <translation name="GUILD_NAME">Guild Name</translation>
+  <translation name="GUILD_ID">Guild id</translation>
+  <translation name="ALLIANCE_NAME">Alliance name</translation>
+  <translation name="ALLIANCE_ID">Alliance id</translation>
+  <translation name="DEATH_FAME">Death fame</translation>
+  <translation name="KILL_FAME">Kill fame</translation>
+  <translation name="FAME_RATIO">Fame ratio</translation>
+  <translation name="TOTAL_KILLS">Total kills</translation>
+  <translation name="GVG_KILLS">GVG kills</translation>
+  <translation name="GVG_WON">GVG won</translation>
+  <translation name="CRYSTAL_LEAGUE">Crystal League</translation>
+  <translation name="TOTAL">Total</translation>
+  <translation name="ROYAL">Royal</translation>
+  <translation name="OUTLANDS">Outlands</translation>
+  <translation name="HELLGATE">Hellgate</translation>
+  <translation name="CRAFTING">Crafting</translation>
+  <translation name="GATHERING">Gathering</translation>
+  <translation name="MAINHAND">Mainhand</translation>
+  <translation name="HEAD">Head</translation>
+  <translation name="SHOES">Shoes</translation>
+  <translation name="BAG">Bag</translation>
+  <translation name="CAPE">Cape</translation>
+  <translation name="FOOD">Food</translation>
+  <translation name="PLAYER">Player</translation>
+  <translation name="GENERAL_INFORMATION">General Information</translation>
+  <translation name="PVP">PvP</translation>
+  <translation name="PVE">PvE</translation>
+  <translation name="LOAD">Load</translation>
+  <translation name="UPDATE">Update</translation>
+  <translation name="NUMBER_OF_VALUES">Number of values</translation>
+  <translation name="GOLD">Gold</translation>
+  <translation name="OPEN_ITEM_WINDOW_IN_NEW_WINDOW">Open item window in new window</translation>
+  <translation name="TAB_ALL_QUALITY_TOOLTIP_DESCRIPTION">Shows all quality prices of an item</translation>
+  <translation name="MAIN">Main</translation>
+  <translation name="HISTORY">History</translation>
+  <translation name="SHOW_NOT_AGAIN">Show not again</translation>
+  <translation name="SHOW_INFO_WINDOW_ON_START">Show info window on start</translation>
+  <translation name="NEW_FEATURE">New Feature</translation>
+  <translation name="FEATURE_DESCRIPTION">NEW FEATURE - ALERT &#x0a; - Item alert when an entered price has been undercut.</translation>
+  <translation name="EQUIPABLE">Equipable</translation>
+  <translation name="STACKABLE">Stackable</translation>
+  <translation name="SHOW_IN_MARKET_PLACE">Show in market place</translation>
+  <translation name="ITEM_TYPE">Item Type</translation>
+  <translation name="INFORMATION">Information</translation>
+  <translation name="YES">Yes</translation>
+  <translation name="NO">No</translation>
+  <translation name="CATEGORY_NAME">Category name</translation>
+  <translation name="FULL_ITEM_INFORMATION_EXIST_LOCAL">Full Item Information exist local</translation>
+  <translation name="LAST_FULL_INFORMATION_UPDATE">Last Full Information Update</translation>
+  <translation name="CATEGORY">Category</translation>
+  <translation name="PARENT_CATEGORY">Parent Category</translation>
+  <translation name="FULL_ITEM_INFO_SEARCH">Full Item Info Search</translation>
+  <translation name="FULL_ITEM_INFO_UPDATE_CYCLE_DAYS">Full Item Info Update Cycle Days</translation>
+  <translation name="LOAD_FULL_ITEM_INFO">Load Full Item Info</translation>
+  <translation name="UNKNOWN">Unknown</translation>
+
+  <translation name="CLOTH_ARMOR">Cloth Armor</translation>
+  <translation name="CLOTH_HELMET">Cloth Helmet</translation>
+  <translation name="CLOTH_SHOES">Cloth Shoes</translation>
+  <translation name="LEATHER_ARMOR">Leather Armor</translation>
+  <translation name="LEATHER_HELMET">Leather Helmet</translation>
+  <translation name="LEATHER_SHOES">Leather Shoes</translation>
+  <translation name="PLATE_ARMOR">Plate Armor</translation>
+  <translation name="PLATE_HELMET">Plate Helmet</translation>
+  <translation name="PLATE_SHOES">Plate Shoes</translation>
+  <translation name="UNIQUE_ARMOR">Unique Armor</translation>
+  <translation name="UNIQUE_HELMET">Unique Helmet</translation>
+  <translation name="UNIQUE_SHOES">Unique Shoes</translation>
+
+  <translation name="ARMOR_ARTEFACT">Armor Artefact</translation>
+  <translation name="MAGIC_ARTEFACT">Magic Artefact</translation>
+  <translation name="MELEE_ARTEFACT">Melee Artefact</translation>
+  <translation name="OFFHAND_ARTEFACT">Offhand Artefact</translation>
+  <translation name="RANGED_ARTEFACT">Ranged Artefact</translation>
+
+  <translation name="BEASTHEART">Beast Heart</translation>
+  <translation name="MOUNTAINHEART">Mountain Heart</translation>
+  <translation name="ROCKHEART">Rock Heart</translation>
+  <translation name="TREEHEART">Tree Heart</translation>
+  <translation name="VINEHEART">Vine Heart</translation>
+
+  <translation name="COOKED">Cooked</translation>
+  <translation name="FISH">Fish</translation>
+  <translation name="FISHING_BAIT">Fishing Bait</translation>
+  <translation name="MAPS">Maps</translation>
+  <translation name="OTHER">Other</translation>
+  <translation name="POTION">Potion</translation>
+  <translation name="SKILL_BOOK">Skill Book</translation>
+  <translation name="VANITY">Vanity</translation>
+
+  <translation name="ANIMALS">Animals</translation>
+  <translation name="SEED">Seed</translation>
+
+  <translation name="BANNER">Banner</translation>
+  <translation name="BED">Bed</translation>
+  <translation name="CHEST">Chest</translation>
+  <translation name="DECORATION_FURNITURE">DecorationFurniture</translation>
+  <translation name="FLAG">Flag</translation>
+  <translation name="HERETIC_FURNITURE">HereticFurniture</translation>
+  <translation name="KEEPER_FURNITURE">KeeperFurniture</translation>
+  <translation name="MORGANA_FURNITURE">MorganaFurniture</translation>
+  <translation name="TABLE">Table</translation>
+  <translation name="REPAIR_KIT">RepairKit</translation>
+  <translation name="UNIQUE">Unique</translation>
+
+  <translation name="FIBERGATHERER_ARMOR">Fibergatherer Armor</translation>
+  <translation name="FIBERGATHERER_HELMET">Fibergatherer Helmet</translation>
+  <translation name="FIBERGATHERER_SHOES">Fibergatherer Shoes</translation>
+  <translation name="FIBERGATHERER_BACKPACK">Fibergatherer Backpack</translation>
+
+  <translation name="FISHGATHERER_ARMOR">Fishgatherer Armor</translation>
+  <translation name="FISHGATHERER_HELMET">Fishgatherer Helmet</translation>
+  <translation name="FISHGATHERER_SHOES">Fishgatherer Shoes</translation>
+  <translation name="FISHGATHERER_BACKPACK">Fishgatherer Backpack</translation>
+
+  <translation name="HIDEGATHERER_ARMOR">Hidegatherer Armor</translation>
+  <translation name="HIDEGATHERER_HELMET">Hidegatherer Helmet</translation>
+  <translation name="HIDEGATHERER_SHOES">Hidegatherer Shoes</translation>
+  <translation name="HIDEGATHERERR_BACKPACK">Hidegatherer Backpack</translation>
+
+  <translation name="OREGATHERER_ARMOR">Oregatherer Armor</translation>
+  <translation name="OREGATHERER_HELMET">Oregatherer Helmet</translation>
+  <translation name="OREGATHERER_SHOES">Oregatherer Shoes</translation>
+  <translation name="OREGATHERER_BACKPACK">Oregatherer Backpack</translation>
+
+  <translation name="ROCKGATHERER_ARMOR">Rockgatherer Armor</translation>
+  <translation name="ROCKGATHERER_HELMET">Rockgatherer Helmet</translation>
+  <translation name="ROCKGATHERER_SHOES">Rockgatherer Shoes</translation>
+  <translation name="ROCKGATHERER_BACKPACK">Rockgatherer Backpack</translation>
+
+  <translation name="WOODGATHERER_ARMOR">Woodgatherer Armor</translation>
+  <translation name="WOODGATHERER_HELMET">Woodgatherer Helmet</translation>
+  <translation name="WOODGATHERER_SHOES">Woodgatherer Shoes</translation>
+  <translation name="WOODGATHERER_BACKPACK">Woodgatherer Backpack</translation>
+  
+  <translation name="BRIDGEWATCH">Bridgewatch</translation>
+  <translation name="CAERLEON">Caerleon</translation>
+  <translation name="FORT_STERLING">Fort Sterling</translation>
+  <translation name="LYMHURST">Lymhurst</translation>
+  <translation name="MARTLOCK">Martlock</translation>
+  <translation name="THETFORD">Thetford</translation>
+
+  <translation name="ARCANE_STAFF">Arcane Staff</translation>
+  <translation name="CURSE_STAFF">Curse Staff</translation>
+  <translation name="FIRE_STAFF">Fire Staff</translation>
+  <translation name="FROST_STAFF">Frost Staff</translation>
+  <translation name="HOLY_STAFF">Holy Staff</translation>
+  <translation name="NATURE_STAFF">Nature Staff</translation>
+
+  <translation name="ESSENCE">Essence</translation>
+  <translation name="RELIC">Relic</translation>
+  <translation name="RUNE">Rune</translation>
+  <translation name="SOUL">Soul</translation>
+
+  <translation name="AXE">Axe</translation>
+  <translation name="DAGGER">Dagger</translation>
+  <translation name="HAMMER">Hammer</translation>
+  <translation name="MACE">Mace</translation>
+  <translation name="QUARTER_STAFF">Quarter Staff</translation>
+  <translation name="SPEAR">Spear</translation>
+  <translation name="SWORD">Sword</translation>
+
+  <translation name="ARMORED_HORSE">Armored Horse</translation>
+  <translation name="OX">Ox</translation>
+  <translation name="RARE_MOUNT">Rare Mount</translation>
+  <translation name="RIDING_HORSE">Riding Horse</translation>
+
+  <translation name="BOOK">Book</translation>
+  <translation name="HORN">Horn</translation>
+  <translation name="ORB">Orb</translation>
+  <translation name="SHIELD">Shield</translation>
+  <translation name="TORCH">Torch</translation>
+  <translation name="TOTEM">Totem</translation>
+  <translation name="TRASH">Trash</translation>
+
+  <translation name="FARMING">Farming</translation>
+  <translation name="JOURNAL">Journal</translation>
+
+  <translation name="BOW">Bow</translation>
+  <translation name="CROSSBOW">Crossbow</translation>
+
+  <translation name="CLOTH">Cloth</translation>
+  <translation name="FIBER">Fiber</translation>
+  <translation name="HIDE">Hide</translation>
+  <translation name="LEATHER">Leather</translation>
+  <translation name="METALBAR">Metalbar</translation>
+  <translation name="ORE">Ore</translation>
+  <translation name="WOOD">Wood</translation>
+  <translation name="PLANKS">Planks</translation>
+  <translation name="ROCK">Rock</translation>
+  <translation name="STONEBLOCK">Stoneblock</translation>
+
+  <translation name="ARENA_SIGILS">Arena Sigils</translation>
+  <translation name="EVENT">Event</translation>
+  <translation name="ROYAL_SIGILS">Royal Sigils</translation>
+
+  <translation name="DEMOLITION_HAMMER">Demolition Hammer</translation>
+  <translation name="FISHING">Fishing</translation>
+  <translation name="PICKAXE">Pickaxe</translation>
+  <translation name="SICKLE">Sickle</translation>
+  <translation name="SKINNING_KNIFE">Skinning Knife</translation>
+  <translation name="STONE_HAMMER">Stone Hammer</translation>
+  <translation name="WOOD_AXE">Wood Axe</translation>
+
+  <translation name="FIBER_TROPHY">Fiber Trophy</translation>
+  <translation name="FISH_TROPHY">Fish Trophy</translation>
+  <translation name="GENERAL_TROPHY">General Trophy</translation>
+  <translation name="HIDE_TROPHY">Hide Trophy</translation>
+  <translation name="MERCENARY_TROPHY">Mercenary Trophy</translation>
+  <translation name="ORE_TROPHY">Ore Trophy</translation>
+  <translation name="ROCK_TROPHY">Rock Trophy</translation>
+  <translation name="WOOD_TROPHY">Wood Trophy</translation>
+
+  <translation name="ACCESSORIES">Accessories</translation>
+  <translation name="ARMOR">Armor</translation>
+  <translation name="ARTEFACT">Artifact</translation>
+  <translation name="CITY_RESOURCES">City Resources</translation>
+  <translation name="CONSUMABLE">Consumable</translation>
+
+  <translation name="FARMABLE">Farmable</translation>
+  <translation name="FURNITURE">Furniture</translation>
+  <translation name="GATHERING_GEAR">Gathering Gear</translation>
+  <translation name="LUXURY_GOODS">Luxury Goods</translation>
+  <translation name="MAGIC">Magic</translation>
+
+  <translation name="MATERIALS">Materials</translation>
+  <translation name="MELEE">Melee</translation>
+  <translation name="MOUNT">Mount</translation>
+  <translation name="OFFHAND">OffHand</translation>
+  <translation name="PRODUCT">Product</translation>
+
+  <translation name="RANGED">Ranged</translation>
+  <translation name="RESOURCE">Resource</translation>
+  <translation name="TOKEN">Token</translation>
+  <translation name="TOOL">Tool</translation>
+  <translation name="TROPHIES">Trophies</translation>
+
+  <translation name="WEIGHT">Weight</translation>
+  <translation name="ITEM_POWER">Item Power</translation>
+  <translation name="DURABILITY">Durability</translation>
+  <translation name="REAL_MONEY_PRICE">Real money price</translation>
+  <translation name="TOO_MANY_REQUESTS_CLOSE_WINDOWS_OR_WAIT">Too many requests, close a few windows or wait a few minutes.</translation>
+
+  <translation name="ALARM_SOUND_USED">Alarm sound used</translation>
+  <translation name="ITEM_PRICE_UNDERCUT">Item price undercut</translation>
+  <translation name="THE_PRICE_OF">The price of</translation>
+  <translation name="IN">in</translation>
+  <translation name="SHOW_ONLY_ITEMS_WITH_ALERT_ON">Show only items with alert on</translation>
+  <translation name="HAS_BEEN_UNDERCUT">has been undercut</translation>
+  <translation name="IS_ALERT_ACTIVATE">Is alert activate</translation>
+  <translation name="UNDERCUTTING_PRICE">Undercutting price</translation>
+</translations>

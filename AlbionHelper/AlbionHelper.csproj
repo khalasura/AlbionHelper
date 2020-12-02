@@ -68,8 +68,12 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Common\CategoryController.cs" />
     <Compile Include="Common\DirectoryController.cs" />
     <Compile Include="Common\ImageController.cs" />
+    <Compile Include="Common\LanguageController.cs" />
+    <Compile Include="Models\CategoryObject.cs" />
+    <Compile Include="Models\FileInformation.cs" />
     <Compile Include="Models\ItemCategoryTree.cs" />
     <Compile Include="ViewModels\ItemUserControlViewModel.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
@@ -114,5 +118,28 @@
     </PackageReference>
     <PackageReference Include="Prism.DryIoc" Version="7.2.0.1422" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Languages\en-US.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Languages\ko-KR.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>RD /S /Q "$(TargetDir)ar-DZ\"
+RD /S /Q "$(TargetDir)cs\"
+RD /S /Q "$(TargetDir)cs-CZ\"
+RD /S /Q "$(TargetDir)de\"
+RD /S /Q "$(TargetDir)fr\"
+RD /S /Q "$(TargetDir)fr-FR\"
+RD /S /Q "$(TargetDir)pt\"
+RD /S /Q "$(TargetDir)pt-BR\"
+RD /S /Q "$(TargetDir)Ru\"
+RD /S /Q "$(TargetDir)ru-ru\"
+RD /S /Q "$(TargetDir)uz-Latn-UZ\"
+</PostBuildEvent>
+  </PropertyGroup>
 </Project>

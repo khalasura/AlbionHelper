@@ -18,7 +18,12 @@ namespace AlbionHelper.ViewModels
         }
         public ItemUserControlViewModel()
         {
-            Icon = ImageController.GetItemImage("T6_2H_CLAWPAIR@1");
+            SetItem("T6_2H_CLAWPAIR@1");
+        }
+
+        public void SetItem(string item)
+        {
+            Icon = ImageController.GetItemImage(item);
         }
     }
 }

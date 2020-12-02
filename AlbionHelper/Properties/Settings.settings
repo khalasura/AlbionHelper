@@ -5,5 +5,14 @@
     <Setting Name="ImageResources" Type="System.String" Scope="User">
       <Value Profile="(Default)">ImageResources</Value>
     </Setting>
+    <Setting Name="DefaultLanguageCultureName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ko-KR</Value>
+    </Setting>
+    <Setting Name="CurrentLanguageCultureName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ko-KR</Value>
+    </Setting>
+    <Setting Name="LanguageDirectoryName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Languages</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

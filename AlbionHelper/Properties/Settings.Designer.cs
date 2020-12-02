@@ -34,5 +34,41 @@ namespace AlbionHelper.Properties {
                 this["ImageResources"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("ko-KR")]
+        public string DefaultLanguageCultureName {
+            get {
+                return ((string)(this["DefaultLanguageCultureName"]));
+            }
+            set {
+                this["DefaultLanguageCultureName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("ko-KR")]
+        public string CurrentLanguageCultureName {
+            get {
+                return ((string)(this["CurrentLanguageCultureName"]));
+            }
+            set {
+                this["CurrentLanguageCultureName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Languages")]
+        public string LanguageDirectoryName {
+            get {
+                return ((string)(this["LanguageDirectoryName"]));
+            }
+            set {
+                this["LanguageDirectoryName"] = value;
+            }
+        }
     }
 }
