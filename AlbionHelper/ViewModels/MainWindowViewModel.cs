@@ -3,6 +3,7 @@ using AlbionHelper.Views;
 using Prism.Commands;
 using Prism.Mvvm;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows;
 
 namespace AlbionHelper.ViewModels
@@ -57,6 +58,11 @@ namespace AlbionHelper.ViewModels
         public MainWindowViewModel()
         {
             IsLanguageFileLoaded = LanguageController.InitializeLanguage();
+
+            // 테스트
+            InitMainWindowData();
+
+
         }
 
         // [Command] 뷰 로드
@@ -73,5 +79,37 @@ namespace AlbionHelper.ViewModels
 
                 }
             }));
+
+        private async void InitMainWindowData()
+        {
+            var result = await ItemController.GetItemListFromJsonAsync().ConfigureAwait(true);
+            var items = ItemController.Items;
+            // 가방
+            var bag_List = items.Where(g => g.UniqueName.Contains("_BAG")
+                            && !g.UniqueName.Contains("ARTEFACT")
+                            && g.Tier > -1).ToList();
+            // 머리
+            var head_List = items.Where(g=> g.UniqueName.Contains("HEAD") 
+                                        && !g.UniqueName.Contains("ARTEFACT")
+                                        && g.Tier > -1).ToList();
+            // 망토
+            var cape_List = items.Where(g => g.UniqueName.Contains("CAPEITEM")
+                                        && !g.UniqueName.Contains("ARTEFACT")
+                                        && g.Tier > -1).ToList();
+
+            // 한손
+            var onehand_List = items.Where(g => g.UniqueName.Contains("_MAIN_")
+                            && !g.UniqueName.Contains("ARTEFACT")
+                            && g.Tier > -1).ToList();
+            // 양손
+            var twohand_List = items.Where(g => g.UniqueName.Contains("_2H_")
+                && !g.UniqueName.Contains("ARTEFACT")
+                && g.Tier > -1).ToList();
+
+            // 보조
+            var offhand_List = items.Where(g => g.UniqueName.Contains("_OFF_")
+                && !g.UniqueName.Contains("ARTEFACT")
+                && g.Tier > -1).ToList();
+        }
     }
 }

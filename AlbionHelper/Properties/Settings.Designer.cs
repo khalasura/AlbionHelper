@@ -70,5 +70,91 @@ namespace AlbionHelper.Properties {
                 this["LanguageDirectoryName"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("FullItemInformation.json")]
+        public string FullItemInformationFileName {
+            get {
+                return ((string)(this["FullItemInformationFileName"]));
+            }
+            set {
+                this["FullItemInformationFileName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://raw.githubusercontent.com/broderickhyman/ao-bin-dumps/master/formatted/it" +
+            "ems.json")]
+        public string ItemListSourceUrl {
+            get {
+                return ((string)(this["ItemListSourceUrl"]));
+            }
+            set {
+                this["ItemListSourceUrl"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("ItemList.json")]
+        public string ItemListFileName {
+            get {
+                return ((string)(this["ItemListFileName"]));
+            }
+            set {
+                this["ItemListFileName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("7")]
+        public int UpdateItemListByDays {
+            get {
+                return ((int)(this["UpdateItemListByDays"]));
+            }
+            set {
+                this["UpdateItemListByDays"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://raw.githubusercontent.com/broderickhyman/ao-bin-dumps/master/formatted/it" +
+            "ems.json")]
+        public string DefaultItemListSourceUrl {
+            get {
+                return ((string)(this["DefaultItemListSourceUrl"]));
+            }
+            set {
+                this["DefaultItemListSourceUrl"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("90")]
+        public int FullItemInformationUpdateCycleDays {
+            get {
+                return ((int)(this["FullItemInformationUpdateCycleDays"]));
+            }
+            set {
+                this["FullItemInformationUpdateCycleDays"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string AutoUpdateConfigUrl {
+            get {
+                return ((string)(this["AutoUpdateConfigUrl"]));
+            }
+            set {
+                this["AutoUpdateConfigUrl"] = value;
+            }
+        }
     }
 }

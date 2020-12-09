@@ -68,13 +68,30 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Common\ApiController.cs" />
     <Compile Include="Common\CategoryController.cs" />
     <Compile Include="Common\DirectoryController.cs" />
+    <Compile Include="Common\Formatting.cs" />
+    <Compile Include="Common\FrequentlyValues.cs" />
     <Compile Include="Common\ImageController.cs" />
+    <Compile Include="Common\ItemController.cs" />
     <Compile Include="Common\LanguageController.cs" />
+    <Compile Include="Common\Locations.cs" />
+    <Compile Include="Common\Utilities.cs" />
     <Compile Include="Models\CategoryObject.cs" />
     <Compile Include="Models\FileInformation.cs" />
+    <Compile Include="Models\GameInfoPlayers.cs" />
+    <Compile Include="Models\GoldModels.cs" />
+    <Compile Include="Models\Guild.cs" />
+    <Compile Include="Models\Item.cs" />
     <Compile Include="Models\ItemCategoryTree.cs" />
+    <Compile Include="Models\ItemInformation.cs" />
+    <Compile Include="Models\ItemJsonObject.cs" />
+    <Compile Include="Models\MarketHistoriesResponse.cs" />
+    <Compile Include="Models\MarketHistoryResponse.cs" />
+    <Compile Include="Models\MarketOrder.cs" />
+    <Compile Include="Models\MarketStats.cs" />
+    <Compile Include="Models\SearchInfos.cs" />
     <Compile Include="ViewModels\ItemUserControlViewModel.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="Views\ItemUserControl.xaml.cs">
@@ -110,6 +127,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Autoupdater.NET.Official">
+      <Version>1.6.4</Version>
+    </PackageReference>
     <PackageReference Include="MaterialDesignExtensions">
       <Version>3.2.0</Version>
     </PackageReference>
